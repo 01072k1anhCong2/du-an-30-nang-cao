@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  background-color: blue;
+  padding: 20px;
+}
+h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 1000;
+  color: blue;
+}
+p{
+  font-size: 13px;
+  line-height: 20px;
+}
+.tables {
+  display: grid;
+  grid-template-columns: 50% 22% 25%;
+  grid-template-rows: 60% 45%;
+  gap: 20px 20px;
+}
+.tables > div {
+  background-color: rgb(232, 241, 241);
+  padding: 15px;
+}
+.timelines {
+  grid-row: 1/4;
+  grid-column: 3/4;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+/* phan goad */
+.container>div, .goal-item:nth-child(2){
+  border-top: 1px solid rgb(86, 100, 104) ;
+}
+.goal-item:nth-child(3){
+  border-bottom: 1px solid rgb(86, 100, 104) ;
+}
+.goal-item{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.goal-item>div:nth-child(2){
+  padding-left: 20px;
+}
+/* .icon{
+ 
+} */
+.icon>span{
+  font-size: 30px;
+  padding: 10px;
+}
+/* phan team */
+.team-item{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+/* phan timeline */
+/* .Member-number-1{
+  font-variant-numeric: tabular-nums;
+} */
+.Member-number{
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  padding: 11px;
+  border-radius: 50%;
+  border: 0.9px solid  rgb(86, 100, 104);
+  margin-right: 10px;
+  background-color: rgb(192, 125, 255);
+  font-variant-numeric: tabular-nums;
+}
+.Member-number-1{
+  padding: 14px;
+}
+.Member-number>strong{
+  display: inline-block;
+  color: aliceblue;
+}
+
+.timeline-item{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+/* phan scopes */
+.scope{
+  display: flex;
+}
+.score-item{
+  margin-top: 10px;
+  line-height: 20px;
+
+}
+/* phan primary */
+.primary-item{
+
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
